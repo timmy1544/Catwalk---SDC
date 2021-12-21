@@ -1,0 +1,32 @@
+{
+  "name": "Catwalk---SDC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmy1544/Catwalk---SDC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmy1544/Catwalk---SDC/issues"
+  },
+  "homepage": "https://github.com/timmy1544/Catwalk---SDC#readme",
+  "dependencies": {
+    "async": "^3.2.2",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "k6": "0.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
